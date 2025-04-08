@@ -13,9 +13,39 @@ background-color: rgb(178, 179, 175);
 
 .header__title{
     font-weight: bold;
-    color: black;
+    color: rgb(0, 0, 0);
     font-family: "inter", sans-serif;
     font-size: 48px;
     
+}
+.header__title--laranja{
+    color: chocolate;
+}
+
+footer{
+    background-color: rgb(73, 73, 72);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+    width: 100vw;
+    justify-content:  space-around;
+    align-items: center;
+    
+
+} 
+
+ .block{
+
+    
+} 
+.ew__{
+    width: 10%;
+}
+
+.logo__logos{
+    align-items: center;
+    width: 20px;
+    height: 20px;
 }
 
