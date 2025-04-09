@@ -24,13 +24,20 @@ background-color: rgb(178, 179, 175);
 
 main{
     height: 60vh;
+    display:flex ;
+    align-items: center;
+    background-image: url(../img/pizzaBackground.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-size: cover;
+   background-position: 30vw 0;
 }
 
-.form{
+.form {
     display: flex;
     flex-direction: column;
-    width: 642px;
-    height: 204px;  
+    width: 460px;
+    height: 260px;  
     border: 1px black solid;
     justify-content: center;
     align-items: center;
@@ -38,7 +45,12 @@ main{
     border-radius: 25px;
     background-color: darkgray;
     box-shadow: 2px 2px darkgray;
+    position: relative;
+    left: 100px;
+    
+    
 }
+
 
 .form__input{
     width: 280px;
