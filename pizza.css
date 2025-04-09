@@ -7,7 +7,7 @@ background-color: rgb(178, 179, 175);
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 136px;
+    height: 20vh;
 
 }
 
@@ -22,12 +22,48 @@ background-color: rgb(178, 179, 175);
     color: chocolate;
 }
 
+main{
+    height: 60vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 642px;
+    height: 204px;  
+    border: 1px black solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 25px;
+    background-color: darkgray;
+    box-shadow: 2px 2px darkgray;
+}
+
+.form__input{
+    width: 280px;
+    height: 24px;
+
+}
+
+.form__btn{
+    border-radius: 20px;
+    padding: 10px 15px;  
+    background-color: blue;
+    color: #fff;
+    border: none;
+    box-shadow: 2px 4px rgb(89, 89, 89);
+}
+.form__btn--action{
+    background-color: greenyellow;
+}
+
 footer{
     background-color: rgb(73, 73, 72);
     display: flex;
     text-align: center;
     justify-content: center;
-    height: 100px;
+    height: 20vh;
     width: 100vw;
     justify-content:  space-around;
     align-items: center;
@@ -48,4 +84,5 @@ footer{
     width: 20px;
     height: 20px;
 }
+
 
