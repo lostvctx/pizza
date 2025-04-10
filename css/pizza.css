@@ -1,13 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 
 
 :root{
-   --cor-primaria:rgb(49, 47, 47);
+   --cor-primaria:rgb(83, 83, 83);
    --cor-secudaria: rgb(212, 155, 80);
+   --cor-terceira:#47311E;
 }
 
 header{
+
     background-color: var(--cor-primaria);
     display: flex;
     justify-content: center;
@@ -16,16 +23,31 @@ header{
     height: 20vh;
 
 }
+ .jjlogo{
+    position: fixed;
+    left: 100px;
+    top: -5px;
+    width: 200px;
+    height: 200px;
+   
+   
+}
 
 .header__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
     color: rgb(0, 0, 0);
     font-family: "inter", sans-serif;
     font-size: 48px;
-    
+    margin-left: 60px;
 }
 .header__title--laranja{
+    
     color: chocolate;
+    font-family: "Italiana", sans-serif;
+    
 }
 
 main{
