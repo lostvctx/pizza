@@ -1,8 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
+:root{
+   --cor-primaria:rgb(49, 47, 47);
+   --cor-secudaria: rgb(212, 155, 80);
+}
+
 header{
-background-color: rgb(178, 179, 175);
+    background-color: var(--cor-primaria);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +49,7 @@ main{
     align-items: center;
     gap: 10px;
     border-radius: 25px;
-    background-color: darkgray;
+    background-color: var(--cor-primaria);
     box-shadow: 2px 2px darkgray;
     position: relative;
     left: 100px;
@@ -61,17 +67,25 @@ main{
 .form__btn{
     border-radius: 20px;
     padding: 10px 15px;  
-    background-color: blue;
+    background-color: rgb(57, 57, 190);
     color: #fff;
     border: none;
     box-shadow: 2px 4px rgb(89, 89, 89);
 }
+.form__btn:hover{
+    background-color: chocolate;
+    color: black;
+    
+
+}
+
+
 .form__btn--action{
-    background-color: greenyellow;
+    background-color: rgb(117, 144, 75);
 }
 
 footer{
-    background-color: rgb(73, 73, 72);
+    background-color: var(--cor-primaria);
     display: flex;
     text-align: center;
     justify-content: center;
